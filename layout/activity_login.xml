@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+
+    tools:context=".login">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/logo_app"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="email"
+        android:id="@+id/email"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="password"
+        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Log-In"
+        android:textColor="@color/colorwhite" />
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:text="Not a user?"
+        android:clickable="true"
+        android:id="@+id/register"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+
+
+</LinearLayout>
